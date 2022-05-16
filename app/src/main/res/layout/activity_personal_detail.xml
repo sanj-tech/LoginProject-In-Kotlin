@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/login_theme"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Oweners'Name *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_ownerName"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_detail_background"
+                android:hint="Owner's Name"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Retail Outlet Name *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_retail_name"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_bg"
+                android:hint="Retail Outlet Name"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Mobile Number 1 *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_bg"
+                android:hint="Mobile Number 1"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Mobile Number 2 *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_mobile_number2"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_bg"
+                android:hint="Mobile Number 2"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Email ID *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_email_id"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_bg"
+                android:hint="Email ID"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Date of Birth *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_pick_date"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_bg"
+                android:drawableEnd="@drawable/ic_baseline_calendar_month_24"
+                android:hint="Select Date of Birth from Calendar"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Address of outlet *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_address_oulet"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_bg"
+                android:hint="@string/address_of_outlet"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="#B3A4A4"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="City *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_city"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_bg"
+                android:hint="City"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Pincode *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_detail_background"
+                android:hint="Pincode"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Anversary Date *:"
+                android:textColor="#ee9235" />
+
+            <EditText
+                android:id="@+id/et_anversary"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/personal_bg"
+                android:drawableEnd="@drawable/ic_baseline_calendar_month_24"
+                android:hint="Select Date from calendar"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <!--        <ImageView-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="100dp"-->
+            <!--            android:layout_gravity="center"-->
+            <!--            android:scaleType="centerCrop"-->
+            <!--            android:background="@drawable/ic_baseline_download_24">-->
+
+            <!--        </ImageView>-->
+            <Button
+                android:id="@+id/btSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape"
+                android:text="Save">
+
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RoomDBTest</string>
+    <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="do_you_love_what_you_do_in_store">Do you love what you do in store?</string>
+    <string name="we_make_sure_you_do">We make sure You do!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="i_agree_to">I agree to</string>
+    <string name="follow_us_on">Follow us On</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="name">name</string>
+    <string name="retail_name">retail name</string>
+    <string name="designation">Designation</string>
+    <string name="address_of_outlet">Address of outlet</string>
+
+</resources>

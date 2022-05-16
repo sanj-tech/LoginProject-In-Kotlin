@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/RoomDBProject/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.17" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/drawable/ic_baseline_download_24.xml" value="0.17" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/drawable/ic_baseline_personal.xml" value="0.17" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/drawable/oval_shape.xml" value="0.17" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/drawable/personal_bg.xml" value="0.17" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/drawable/personal_detail_background.xml" value="0.17" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/drawable/shape.xml" value="0.153" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/layout/activity_detailinfo.xml" value="0.25416666666666665" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/layout/activity_personal_detail.xml" value="0.15693430656934307" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/layout/activity_splash.xml" value="0.253125" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/layout/activity_view_personal_detail.xml" value="0.12395833333333334" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/layout/custom_item_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/layout/headerfile.xml" value="0.25416666666666665" />
+        <entry key="..\:/RoomDBProject/app/src/main/res/menu/navigative_view_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
